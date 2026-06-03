@@ -4,7 +4,7 @@ export const profile = {
   name: "Stevi Greis Sianipar",
   title: "Computer Technology",
   phone: "0812-6927-8669",
-  email: "stevisianipar05@gmail.com",
+  email: "stevigsianipar@gmail.com",
   location: "Indonesia",
   github: "https://github.com/SteviSianipar05",
   linkedin: "https://linkedin.com/in/stevi-greis-sianipar-345889346",
