@@ -1,0 +1,15 @@
+# ================= Netlify Build Settings =================
+[build]
+  # Perintah build untuk Next.js
+  command = "npm run build"
+  # Direktori hasil build yang akan dideploy
+  publish = ".next"
+
+# ================= Plugin Next.js =================
+[[plugins]]
+  package = "@netlify/plugin-nextjs"
+
+# ================= Environment =================
+# Pastikan Node versi sama dengan lokal
+[build.environment]
+  NODE_VERSION = "20"
